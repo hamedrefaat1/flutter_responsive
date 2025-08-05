@@ -2,80 +2,120 @@ import 'package:flutter_responsive/models/place.dart';
 
 List<Place> allPlaces = [
   Place(
-    image: 'images/fairymedows.jpg',
-    title: 'Fairy Meadows',
-    subtitle: 'Gilgit-Baltistan',
+    image: "https://images.pexels.com/photos/262780/pexels-photo-262780.jpeg?_gl=1*1xlayrv*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTIxMTEkajUyJGwwJGgw",
+    title: 'Pyramids of Giza',
+    subtitle: 'Giza',
     description:
-        'Tucked away in Gilgit-Baltistan, Fairy Meadows is a stunning alpine meadow surrounded by towering peaks, including the majestic Nanga Parbat. Its lush green landscapes, wildflowers, and panoramic views make it a paradise for hikers, photographers, and nature enthusiasts.Tucked away in Gilgit-Baltistan, Fairy Meadows is a stunning alpine meadow surrounded by towering peaks, including the majestic Nanga Parbat. Its lush green landscapes, wildflowers, and panoramic views make it a paradise for hikers, photographers, and nature enthusiasts.',
+        'One of the Seven Wonders of the Ancient World, the Pyramids of Giza include the Great Pyramid of Khufu and the iconic Sphinx. A symbol of ancient Egyptian civilization that tells the story of the pharaohs and the magnificence of ancient Egyptian architecture.',
   ),
   Place(
-    image: 'images/hunzavalley.jpg',
-    title: 'Hunza Valley',
-    subtitle: 'Gilgit-Baltistan',
+    image: 'https://images.pexels.com/photos/21668633/pexels-photo-21668633.jpeg?_gl=1*y4hasd*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTI4OTkkajM3JGwwJGgw',
+    title: 'Luxor Temple',
+    subtitle: 'Luxor',
     description:
-        ' Nestled in the heart of Gilgit-Baltistan, Hunza Valley offers a blend of natural beauty and cultural richness. With snow-capped peaks, terraced fields, crystal-clear lakes, and traditional villages, it presents breathtaking vistas at every turn.Nestled in the heart of Gilgit-Baltistan, Hunza Valley offers a blend of natural beauty and cultural richness. With snow-capped peaks, terraced fields, crystal-clear lakes, and traditional villages, it presents breathtaking vistas at every turn.',
+        'Luxor Temple is a large ancient Egyptian temple complex located on the east bank of the Nile River in Luxor. Known as "Ipet Resyt" in ancient Egyptian, it is dedicated to the sacred triad of Thebes.',
   ),
   Place(
-    image: 'images/neelumvalley.jpg',
-    title: 'Neelum Valley',
-    subtitle: 'Azad Kashmir',
+    image: 'https://images.pexels.com/photos/18934696/pexels-photo-18934696.jpeg?_gl=1*gdlaez*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTI5NjckajI5JGwwJGgw',
+    title: 'Karnak Temple Complex',
+    subtitle: 'Luxor',
     description:
-        'Located in Azad Kashmir, Neelum Valley is a picturesque wonderland. Its lush green forests, meandering Neelum River, gushing waterfalls, and snow-covered peaks create a captivating landscape that lures nature lovers and adventurers alike.Located in Azad Kashmir, Neelum Valley is a picturesque wonderland. Its lush green forests, meandering Neelum River, gushing waterfalls, and snow-covered peaks create a captivating landscape that lures nature lovers and adventurers alike.',
+        'The largest place of worship in the ancient world, Karnak Temple comprises a vast mix of temples, chapels, pylons and massive columns. Construction continued for over 2000 years by different pharaohs.',
   ),
   Place(
-    image: 'images/shanrila.jpg',
-    title: 'Shangrila Resort',
-    subtitle: 'Gilgit-Baltistan',
+    image: 'https://images.pexels.com/photos/32901301/pexels-photo-32901301.jpeg?_gl=1*109m5su*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTMwMzgkajMwJGwwJGgw',
+    title: 'Abu Simbel Temples',
+    subtitle: 'Aswan',
     description:
-        'Located near Skardu, Shangrila Resort is a heavenly destination with turquoise lakes, blooming gardens, and the famous Shangrila Lake Resort offering a luxurious stay.Located near Skardu, Shangrila Resort is a heavenly destination with turquoise lakes, blooming gardens, and the famous Shangrila Lake Resort offering a luxurious stay.Located near Skardu, Shangrila Resort is a heavenly destination with turquoise lakes, blooming gardens, and the famous Shangrila Lake Resort offering a luxurious stay.',
+        'Two massive rock-cut temples built by King Ramesses II in the 13th century BC. The entire temples were relocated in the 1960s to save them from being submerged under Lake Nasser.',
   ),
   Place(
-    image: 'images/swat.jpg',
-    title: 'Swat Valley',
-    subtitle: 'Khyber Pakhtunkhwa',
+    image: 'https://images.pexels.com/photos/18934583/pexels-photo-18934583.jpeg?_gl=1*17ri2g2*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTMwODIkajQ3JGwwJGgw',
+    title: 'Philae Temple',
+    subtitle: 'Aswan',
     description:
-        'Often referred to as the "Switzerland of the East," Swat Valley boasts snow-covered peaks, lush green meadows, cascading waterfalls, and ancient Buddhist heritage sites.Often referred to as the "Switzerland of the East," Swat Valley boasts snow-covered peaks, lush green meadows, cascading waterfalls, and ancient Buddhist heritage sites.Often referred to as the "Switzerland of the East," Swat Valley boasts snow-covered peaks, lush green meadows, cascading waterfalls, and ancient Buddhist heritage sites.',
+        'Philae Island and its temple dedicated to goddess Isis, the pearl of the Nile and jewel of Nubian temples. The temple was moved stone by stone to Agilkia Island after the construction of the High Dam.',
   ),
   Place(
-    image: 'images/naltar.jpg',
-    title: 'Naltar Valley',
-    subtitle: 'Gilgit-Baltistan',
+    image: 'https://images.pexels.com/photos/31674844/pexels-photo-31674844.jpeg?_gl=1*94lam8*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTMxNDMkajU5JGwwJGgw',
+    title: 'Valley of the Kings',
+    subtitle: 'Luxor',
     description:
-        'Naltar Valley is known for its pristine beauty and vibrant colors. The valley is adorned with thick pine forests, turquoise lakes, and offers skiing opportunities in winters.',
+        'The royal burial ground for pharaohs of the New Kingdom, containing over 60 tombs including the famous tomb of Tutankhamun. Incomparable archaeological treasures that reveal the secrets of the afterlife in ancient Egypt.',
   ),
   Place(
-    image: 'images/kalash.jpeg',
-    title: 'Kalash Valley',
-    subtitle: 'Khyber Pakhtunkhwa',
+    image: 'https://images.pexels.com/photos/16154647/pexels-photo-16154647.jpeg?_gl=1*1yft6ay*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTMzODUkajYwJGwwJGgw',
+    title: 'Siwa Oasis',
+    subtitle: 'Matrouh',
     description:
-        'The unique and culturally rich Kalash Valley is home to the indigenous Kalash people. The valley showcases traditional wooden houses, vibrant festivals, and stunning mountain landscapes.',
+        'An oasis in the heart of the Western Desert, famous for its natural springs, salt lakes and the renowned Temple of Amun. A magical place for relaxation and natural therapy with sand and mineral waters.',
   ),
   Place(
-    image: 'images/mohenjo.jpeg',
-    title: 'Mohenjo-daro',
-    subtitle: 'Sindh',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXQl5qf06S5khxtU9iXhKhRarzpl6-yxt24kLOFvzC7h9C_7PPBwd-D6M&s',
+    title: 'White Desert',
+    subtitle: 'New Valley',
     description:
-        'Mohenjo-daro is an archaeological site of an ancient Indus Valley Civilization. The well-preserved ruins offer insights into the life and architecture of this ancient civilization.',
+        'A unique natural masterpiece of white limestone formations sculpted by winds over millions of years. Fantasy landscapes resembling lunar scenery, perfect for camping and stargazing.',
   ),
   Place(
-    image: 'images/badshahi.jpg',
-    title: 'Badshahi Mosque',
-    subtitle: 'Punjab',
+    image: 'https://images.pexels.com/photos/16714089/pexels-photo-16714089.jpeg?_gl=1*11m6bng*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTM1OTAkajQ0JGwwJGgw',
+    title: 'Library of Alexandria',
+    subtitle: 'Alexandria',
     description:
-        'Located in Lahore, Badshahi Mosque is a magnificent masterpiece of Mughal architecture. It is one of the largest mosques in the world and showcases intricate designs and grandeur.',
+        'A beacon of knowledge and culture in the ancient world, the new Library of Alexandria revives the legacy of the ancient library. A cultural and civilizational center housing millions of books, manuscripts and museums.',
   ),
   Place(
-    image: 'images/makli.jpg',
-    title: 'Makli Necropolis',
-    subtitle: 'Sindh',
+    image: 'https://images.pexels.com/photos/1755383/pexels-photo-1755383.jpeg?_gl=1*1aavd3t*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTM2NjAkajQzJGwwJGgw',
+    title: 'Saladin Citadel',
+    subtitle: 'Cairo',
     description:
-        'Makli Necropolis is an ancient graveyard in Thatta, Sindh, featuring stunning mausoleums and tombs with intricate stone carvings, reflecting the rich history and artistry of the region.',
+        'An ancient Islamic fortress built by Saladin to protect Cairo from the Crusaders. It houses the famous Muhammad Ali Mosque and several museums, offering panoramic views of Cairo.',
   ),
   Place(
-    image: 'images/fort.jpg',
-    title: 'Lahore Fort',
-    subtitle: 'Punjab',
+    image: 'https://images.pexels.com/photos/31589053/pexels-photo-31589053.jpeg?_gl=1*tu5zbh*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTM3MTYkajQ4JGwwJGgw',
+    title: 'Khan El-Khalili',
+    subtitle: 'Cairo',
     description:
-        'Lahore Fort, a UNESCO World Heritage Site, is a symbol of the citys rich history. The fort showcases beautiful palaces, gardens, and the iconic Sheesh Mahal (Palace of Mirrors).',
+        'The most famous traditional market in Cairo, featuring handicraft shops, antiques, spices and perfumes. Perfect place to buy souvenirs and discover authentic Egyptian folk culture.',
   ),
+  Place(
+    image: 'https://images.pexels.com/photos/3828753/pexels-photo-3828753.jpeg?_gl=1*y529cv*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTM5NTckajUwJGwwJGgw',
+    title: 'Red Sea',
+    subtitle: 'Hurghada - Sharm El Sheikh',
+    description:
+        'A diving and water sports paradise, the Red Sea features the worlds most beautiful coral reefs. Crystal clear waters, colorful fish and golden beaches make it an ideal destination for sea lovers.',
+  ),
+  Place(
+    image: 'https://www.egypttoursportal.com/images/2025/04/Mount-Sinai-Egypt-Tour-Portal.jpg',
+    title: 'Mount Sinai',
+    subtitle: 'South Sinai',
+    description:
+        'The sacred mountain where Moses received the Ten Commandments, rising 2,285 meters above sea level. A spiritual and natural journey, especially spectacular at sunrise from the summit.',
+  ),
+  Place(
+    image: 'https://images.pexels.com/photos/31730185/pexels-photo-31730185.jpeg?_gl=1*7dnphy*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTM4NDkkajEwJGwwJGgw',
+    title: 'Edfu Temple',
+    subtitle: 'Aswan',
+    description:
+        'The second largest temple in Egypt after Karnak, dedicated to the god Horus. One of the best-preserved temples in Egypt, telling the legend of the struggle between Horus and Set.',
+  ),
+  Place(
+    image: 'https://images.pexels.com/photos/30367196/pexels-photo-30367196.jpeg?_gl=1*1ekg20r*_ga*NTM3MDA0NzQzLjE3MzA5NTg1NjE.*_ga_8JE65Q40S6*czE3NTQzNTIxMDMkbzQkZzEkdDE3NTQzNTM4MTAkajQ5JGwwJGgw',
+    title: 'Saint Catherine Monastery',
+    subtitle: 'South Sinai',
+    description:
+        'The worlds oldest working monastery, built in the 6th century AD at the foot of Mount Sinai. It houses a rare library of ancient manuscripts and Byzantine icons.',
+  ),
+];
+// Egyptian Governorates for filtering
+const allStates = <String>[
+  'Cairo',
+  'Giza', 
+  'Alexandria',
+  'Luxor',
+  'Aswan',
+  'Red Sea',
+  'South Sinai',
+  'Matrouh',
+  'New Valley',
 ];

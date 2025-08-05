@@ -1,7 +1,13 @@
+
+// Egyptian Governorates for filtering
 const allStates = <String>[
-  'Lahore',
-  'Khyber Pakhtoon',
-  'Gilgit Baltistan',
-  'Punjab',
-  'Kashmir',
+  'Cairo',
+  'Giza', 
+  'Alexandria',
+  'Luxor',
+  'Aswan',
+  'Red Sea',
+  'South Sinai',
+  'Matrouh',
+  'New Valley',
 ];
