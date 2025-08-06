@@ -136,14 +136,14 @@ class _LayoutDesktopState extends State<LayoutDesktop> {
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                // ✅ الصورة + الاسم + التقييم (يسار)
+                       f
                                 Expanded(
                                   flex: 4,
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
-                                      // الصورة
+                                     
                                       ClipRRect(
                                         borderRadius: BorderRadius.circular(12),
                                         child: Image.network(
@@ -158,7 +158,7 @@ class _LayoutDesktopState extends State<LayoutDesktop> {
                                         ),
                                       ),
                                       SizedBox(height: 12),
-                                      // الاسم والتقييم
+                                    
                                       Padding(
                                         padding: const EdgeInsets.symmetric(
                                           horizontal: 8,
@@ -167,7 +167,7 @@ class _LayoutDesktopState extends State<LayoutDesktop> {
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceBetween,
                                           children: [
-                                            // اسم المكان
+                                        
                                             Expanded(
                                               child: Column(
                                                 crossAxisAlignment:
@@ -219,7 +219,6 @@ class _LayoutDesktopState extends State<LayoutDesktop> {
 
                                 SizedBox(width: 20),
 
-                                // ✅ أدوات الاتصال + الوصف (يمين)
                                 Expanded(
                                   flex: 6,
                                   child: Padding(
@@ -231,7 +230,7 @@ class _LayoutDesktopState extends State<LayoutDesktop> {
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        // أدوات الاتصال
+                                       
                                         Row(
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceEvenly,
@@ -258,7 +257,7 @@ class _LayoutDesktopState extends State<LayoutDesktop> {
                                         ),
                                         SizedBox(height: 30),
 
-                                        // الوصف
+                                        
                                         Text(
                                           selectedPlace.description,
                                           style: TextStyle(
