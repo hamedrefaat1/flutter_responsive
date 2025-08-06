@@ -136,7 +136,7 @@ class _LayoutDesktopState extends State<LayoutDesktop> {
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                       f
+                       
                                 Expanded(
                                   flex: 4,
                                   child: Column(
